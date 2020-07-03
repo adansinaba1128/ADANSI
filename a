@@ -1,0 +1,21 @@
+
+
+
+
+<script>
+(function () {
+let names =[
+ "Anna", "Adansi", "Leticia", "Sandy"   
+]
+
+function sayHello(name) {
+let bodyElement =document.getElementsByTagName('body');
+let element =document.createElement("h1");
+element.innerText = "Hello: " + name;
+bodyElement[0].append(element);
+}
+names.forEach(sayHello);
+})();
+</Script>
+</body>
+
